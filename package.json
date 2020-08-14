@@ -1,0 +1,10 @@
+{
+  "name": "tfjs-examples",
+  "version": "1.0.0",
+  "dependencies": {
+    "@tensorflow/tfjs": "1.7.4",
+    "@tensorflow/tfjs-node": "1.7.4",
+    "@tensorflow/tfjs-node-gpu": "1.7.4",
+    "face-api.js": "0.22.2"
+  }
+}
