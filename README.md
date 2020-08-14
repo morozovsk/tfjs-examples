@@ -21,3 +21,9 @@ node 14.8.0 installation:
 
 dependencies installation:
 * apt update && apt install -y git curl wget nodejs npm mc make g++
+
+docker:
+* git clone https://github.com/morozovsk/tfjs-examples.git && cd tfjs-examples
+* docker build -t tfjs-examples .
+* docker run -it tfjs-examples bash
+* cd tfjs-examples && nodejs face_comparison.js
