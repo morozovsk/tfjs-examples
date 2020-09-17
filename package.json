@@ -5,6 +5,7 @@
     "@tensorflow/tfjs": "1.7.4",
     "@tensorflow/tfjs-node": "1.7.4",
     "@tensorflow/tfjs-node-gpu": "1.7.4",
-    "face-api.js": "0.22.2"
+    "face-api.js": "0.22.2",
+    "sharp": "*"
   }
 }
